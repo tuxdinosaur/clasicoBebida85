@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "OT-Medium";
+  src: url("../assets/fonts/Emigre\ -\ ProgramOT-Medium.otf");
+}
+@font-face {
+  font-family: "Museo-900";
+  src: url("../assets/fonts/exljbris\ -\ Museo-900.otf");
+}
+
+/* UTILITIES */
+
+a {
+  text-decoration: none;
+}
+
+.border {
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+/* COLORS */
+
+.gris {
+  color: #595a5a;
+}
+
+.rojo {
+  color: #ed1c2c;
+}
+
+/* BTN */
+
+.btn-vips {
+  background-color: #f5a623;
+  color: #fff;
+  padding: 10px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-family: "OT-Medium";
+}
+
+/* FONTS */
+
+.museo-900 {
+  font-family: "Museo-900";
+}
+
+.OT-Medium {
+  font-family: "OT-Medium";
+}
+
+.f18px {
+  font-size: 18px;
+}
+
+.f19px {
+  font-size: 19px;
+}
+
+.f26px {
+  font-size: 26px;
+}
+
+.f28px {
+  font-size: 28px;
+}
+
+.f45px {
+  font-size: 45px;
+}
+
+.f127px {
+  font-size: 127px;
+}
+
+/* GENERAL */
+
+.ornamentoDerecho {
+  transform: rotate(180deg);
+}
+
+.alturaOrnamento {
+  height: 30px;
+}
