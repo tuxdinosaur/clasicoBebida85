@@ -7,51 +7,149 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Clásico con bebida a $85</title>
     <link rel="stylesheet" href="./css/styles.css">
+
+    <!--SLICK-->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css'>
 </head>
 
 <body>
+    <div class="bg-madera">
 
-    <!-- MOBILE -->
-
-    <div class="promo border">
-        <div class="d-flex justify-content-center">
-            <a href="" class="btn-vips">Válido solamente en Toluca</a>
-        </div>
-        <div id="promo-text" class="museo-900 text-center">
-            <div class="d-flex justify-content-center align-items-center">
-                <img src="./assets/ornamento.svg" alt="" class="alturaOrnamento">
-                <div>
-                    <p class="gris m-0 f26px">
-                        AHORA TUS
-                    </p>
-                    <p class="rojo m-0 f28px">
-                        CLÁSICOS
-                    </p>
-                    <p class="rojo m-0 f28px">
-                        CON BEBIDA
+        <!-- MOBILE -->
+        <div class="promo mt-1">
+            <div class="d-flex justify-content-center mb-1">
+                <a href="" class="btn-vips">Válido solamente en Toluca</a>
+            </div>
+            <div id="promo-text" class="museo-900 text-center">
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="./assets/ornamento.svg" alt="" class="alturaOrnamento">
+                    <div>
+                        <p class="gris m-0 f26px">
+                            AHORA TUS
+                        </p>
+                        <p class="rojo m-0 f28px">
+                            CLÁSICOS
+                        </p>
+                        <p class="rojo m-0 f28px">
+                            CON BEBIDA
+                        </p>
+                    </div>
+                    <img src="./assets/ornamento.svg" alt="" class="ornamentoDerecho alturaOrnamento">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <p class="m-0 f19px rojo">
+                        A SÓLO
                     </p>
                 </div>
-                <img src="./assets/ornamento.svg" alt="" class="ornamentoDerecho alturaOrnamento">
+                <div class="d-flex justify-content-center">
+                    <p class="m-0 d-flex align-items-center rojo">
+                        <span class="f45px">$</span> <span class="f127px">85</span> <span class="f18px">C/U</span>
+                    </p>
+                </div>
             </div>
-            <div class="d-flex justify-content-center">
-                <p class="m-0 f19px">
-                    A SÓLO
-                </p>
+            <div class="d-flex justify-content-center mb-1">
+                <a href="#" class="btn-vips">Busca tu vips</a>
             </div>
-            <div class="d-flex justify-content-center">
-                <p class="m-0 d-flex align-items-center">
-                    <span class="f45px">$</span> <span class="f127px">85</span> <span class="f18px">C/U</span>
-                </p>
+            <div class="d-flex justify-content-center mb-1">
+                <a href="#" class="terms OT-Medium">Términos y condiciones</a>
             </div>
         </div>
-        <div class="d-flex justify-content-center">
-            <a href="#" class="btn-vips">Busca tu vips</a>
+
+        <!-- SLIDER MOBILE -->
+        <div class="container-fluid d-lg-none">
+            <div class="row">
+
+                <div class="col-12 col-md-12 mt-2">
+
+                    <div class="container-navlinks d-flex" style="align-items: center;">
+
+                        <div class="prev fas fa-chevron-left buttons-slick-l d-flex justify-content-center"
+                            style="width: 10%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49">
+                                <g id="arrow-left" transform="translate(-30 -395)">
+                                    <rect id="Rectángulo_343" data-name="Rectángulo 343" width="49" height="49" rx="15"
+                                        transform="translate(30 395)" fill="none" />
+                                    <g id="Grupo_699" data-name="Grupo 699" transform="translate(-9)">
+                                        <g id="keyboard_arrow_down-24px_1_" data-name="keyboard_arrow_down-24px (1)"
+                                            transform="translate(82 401) rotate(90)">
+                                            <path class="fill-white" id="Trazado_1" data-name="Trazado 1"
+                                                d="M8.174,8.59l7.076,7.061L22.326,8.59,24.5,10.764l-9.25,9.25L6,10.764Z"
+                                                transform="translate(3.25 4.653)" fill="#707070" />
+                                            <path id="Trazado_2" data-name="Trazado 2" d="M0,0H37V37H0Z" fill="none" />
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="slider variable-width" style="width: 80%;">
+
+                            <div class="item">
+                                <img class="w-100 card-slick" src="./assets/enchiladas-refresco.png" alt="">
+                                <p class="text-center nombrePlatillo">Enchiladas</p>
+                            </div>
+                            <div class="item">
+                                <img class="w-100 card-slick" src="./assets/crepas-de-cajeta-naranja.png" alt="">
+                                <p class="text-center nombrePlatillo">Crepas</p>
+                            </div>
+                            <div class="item">
+                                <img class="w-100 card-slick" src="./assets/huevos-suizos-zanahoria.png" alt="">
+                                <p class="text-center nombrePlatillo">Huevos suizos</p>
+                            </div>
+                            <div class="item">
+                                <img class="w-100 card-slick" src="./assets/enchiladas-de-mole-toronja.png" alt="">
+                                <p class="text-center nombrePlatillo">Enchiladas de mole</p>
+                            </div>
+                            <div class="item">
+                                <img class="w-100 card-slick" src="./assets/molletes-naranjada.png" alt="">
+                                <p class="text-center nombrePlatillo">Molletes</p>
+                            </div>
+                            <div class="item">
+                                <img class="w-100 card-slick" src="./assets/huevos-vips-refresco.png" alt="">
+                                <p class="text-center nombrePlatillo">Huevos Vips</p>
+                            </div>
+                            <div class="item">
+                                <img class="w-100 card-slick" src="./assets/vips-club-limonada.png" alt="">
+                                <p class="text-center nombrePlatillo">Vips Club</p>
+                            </div>
+                            <div class="item">
+                                <img class="w-100 card-slick" src="./assets/pepitos-vips-naranja.png" alt="">
+                                <p class="text-center nombrePlatillo">Pepitos Vips</p>
+                            </div>
+                        </div>
+
+                        <div class="next fas fa-chevron-right buttons-slick-r d-flex justify-content-center"
+                            style="width: 10%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49">
+                                <g id="arrow-right" transform="translate(-30 -395)">
+                                    <rect id="Rectángulo_343" data-name="Rectángulo 343" width="49" height="49" rx="15"
+                                        transform="translate(30 395)" fill="none" />
+                                    <g id="Grupo_699" data-name="Grupo 699" transform="translate(118 839) rotate(180)">
+                                        <g id="keyboard_arrow_down-24px_1_" data-name="keyboard_arrow_down-24px (1)"
+                                            transform="translate(82 401) rotate(90)">
+                                            <path class="fill-white" id="Trazado_1" data-name="Trazado 1"
+                                                d="M8.174,8.59l7.076,7.061L22.326,8.59,24.5,10.764l-9.25,9.25L6,10.764Z"
+                                                transform="translate(3.25 4.653)" fill="#707070" />
+                                            <path id="Trazado_2" data-name="Trazado 2" d="M0,0H37V37H0Z" fill="none" />
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <div class="d-flex justify-content-center">
-            <a href="#" class="terms OT-Medium">Términos y condiciones</a>
-        </div>
+
     </div>
 
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="./slick/slick.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
 
 </body>
 

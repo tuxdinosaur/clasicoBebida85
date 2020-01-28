@@ -22,6 +22,22 @@ a {
   margin: 0;
 }
 
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+pt-1 {
+  padding-top: 1rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+
 .text-center {
   text-align: center;
 }
@@ -105,4 +121,19 @@ a {
 
 .alturaOrnamento {
   height: 30px;
+}
+
+.nombrePlatillo {
+  font-family: "OT-Medium";
+}
+
+body {
+  background-image: url(../assets/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* height: 100vh; */
+  height: calc(100vh - 1rem);
+  margin: 0;
+  padding: 0;
 }
