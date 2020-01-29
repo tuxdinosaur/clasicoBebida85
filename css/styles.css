@@ -7,6 +7,23 @@
   src: url("../assets/fonts/exljbris\ -\ Museo-900.otf");
 }
 
+body {
+  background-image: url(../assets/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  height: calc(100vh - 1rem);
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+} */
+
 /* UTILITIES */
 
 a {
@@ -92,13 +109,15 @@ a {
 
 .btn-vips-desktop {
   background-color: #f5a623;
+  font-size: 18px;
   color: #fff;
   padding: 10px 20px;
-  border-radius: 0 25px 25px 0;
+  border-radius: 25px 0 0 25px;
   font-family: "OT-Medium";
   position: fixed;
   z-index: 999;
   top: 50px;
+  right: 0;
 }
 
 /* FONTS */
@@ -173,25 +192,18 @@ a {
   font-family: "OT-Medium";
 }
 
-body {
-  background-image: url(../assets/bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  height: calc(100vh - 1rem);
-  margin: 0;
-  padding: 0;
+.terms {
+  color: #707070;
 }
-
-/* body {
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-} */
 
 @media only screen and (min-width: 992px) {
   .d-lg-none {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #contenedor-desktop {
     display: none;
   }
 }
